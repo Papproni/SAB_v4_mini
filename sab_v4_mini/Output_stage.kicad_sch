@@ -974,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 69.85) (xy 115.57 82.55)
+			(xy 115.57 72.39) (xy 115.57 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1161,16 +1161,6 @@
 			(type default)
 		)
 		(uuid "1bea8e94-a633-4ffe-934e-01c122bc5066")
-	)
-	(wire
-		(pts
-			(xy 120.65 67.31) (xy 120.65 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c32e227-b8e4-47f8-b668-e8ab81662913")
 	)
 	(wire
 		(pts
@@ -1554,7 +1544,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 67.31) (xy 118.11 67.31)
+			(xy 115.57 67.31) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1924,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 115.57 69.85)
+			(xy 120.65 72.39) (xy 115.57 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2161,16 +2151,6 @@
 			(type default)
 		)
 		(uuid "ad90c950-9e85-4254-8222-57f496cc350d")
-	)
-	(wire
-		(pts
-			(xy 118.11 72.39) (xy 120.65 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b35e828f-e6d0-4e01-a10f-1f19476f4d19")
 	)
 	(wire
 		(pts
@@ -2441,16 +2421,6 @@
 			(type default)
 		)
 		(uuid "f74c13e9-434b-497d-957f-6a1699f78c4f")
-	)
-	(wire
-		(pts
-			(xy 118.11 67.31) (xy 118.11 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92dfd5c-d4d4-4531-bf96-3d7198fd279f")
 	)
 	(wire
 		(pts
@@ -5852,15 +5822,15 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OP275")
 		(at 128.27 69.85 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82594d64-602f-441a-8596-efc44d9dd9b6")
 		(property "Reference" "U2"
-			(at 128.27 60.96 0)
+			(at 128.27 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +5838,7 @@
 			)
 		)
 		(property "Value" "OP275"
-			(at 128.27 63.5 0)
+			(at 128.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

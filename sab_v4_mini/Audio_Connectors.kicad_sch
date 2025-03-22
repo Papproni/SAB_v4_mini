@@ -386,6 +386,32 @@
 			)
 		)
 	)
+	(junction
+		(at 48.26 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15c099c2-7eb0-4ebb-a786-8d51a8fa2faa")
+	)
+	(wire
+		(pts
+			(xy 45.72 105.41) (xy 48.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4523b475-dbd6-4f49-852e-f31adbdc45ea")
+	)
+	(wire
+		(pts
+			(xy 45.72 107.95) (xy 45.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924b79f2-4b2a-4ec9-91e8-2fd500aeff6e")
+	)
 	(wire
 		(pts
 			(xy 48.26 43.18) (xy 45.72 43.18)
@@ -405,6 +431,36 @@
 			(type default)
 		)
 		(uuid "b41c414d-2246-403b-8051-273092574483")
+	)
+	(wire
+		(pts
+			(xy 48.26 106.68) (xy 48.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b1fbaa-8ca9-4286-99b7-b5adb92b4081")
+	)
+	(wire
+		(pts
+			(xy 45.72 106.68) (xy 48.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6541fc3-4877-459a-9fff-8dffcd180fe7")
+	)
+	(wire
+		(pts
+			(xy 48.26 105.41) (xy 48.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65d751b-232f-46bb-87f3-664555b7f4f2")
 	)
 	(text "Audio (6.35mm Jack) inputs and outputs.\n"
 		(exclude_from_sim no)
@@ -1465,7 +1521,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_Ground_SwitchTR")
-		(at 43.18 97.79 0)
+		(at 40.64 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1474,7 +1530,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9eb547d-ab40-4f68-888c-07ff616fa55b")
 		(property "Reference" "J13"
-			(at 41.275 90.17 0)
+			(at 38.735 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1538,7 @@
 			)
 		)
 		(property "Value" "AudioJack_LOOP3_RETURN"
-			(at 41.275 92.71 0)
+			(at 38.735 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1546,7 @@
 			)
 		)
 		(property "Footprint" "stm_audio_board_footprints:6.3_jack_new_ref"
-			(at 43.18 97.79 0)
+			(at 40.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 97.79 0)
+			(at 40.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 97.79 0)
+			(at 40.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1573,7 @@
 			)
 		)
 		(property "LCSC Part" "C309277"
-			(at 43.18 97.79 0)
+			(at 40.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
