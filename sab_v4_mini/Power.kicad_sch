@@ -10059,6 +10059,16 @@
 		)
 		(uuid "6bfeee34-3f75-4582-b627-427fe52597dc")
 	)
+	(text "MCU 3v3 150mA\nCODEC 3v3 50mA\n---------------\nMax 250mA at 3v3\n\n[<150mA at 9V]"
+		(exclude_from_sim no)
+		(at 39.878 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81ed83dd-16f0-4776-8bca-1291c904aeba")
+	)
 	(text "Opamp pwr\n"
 		(exclude_from_sim no)
 		(at 69.85 214.63 0)
