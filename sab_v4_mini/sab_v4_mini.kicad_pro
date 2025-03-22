@@ -499,6 +499,65 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -512,6 +571,11 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -535,6 +599,7 @@
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
@@ -542,7 +607,7 @@
   "sheets": [
     [
       "6997cf63-2615-4e49-9471-e7da1b6bae71",
-      ""
+      "Root"
     ],
     [
       "2eb2ee8f-ab98-4666-97f0-bfacb073bc88",
@@ -561,14 +626,6 @@
       "Output_stage"
     ],
     [
-      "312e18a4-8c74-4837-bf87-a5efa7da334e",
-      "potentiometers"
-    ],
-    [
-      "9c772890-0bf9-441d-95c7-005162ad7e52",
-      "display"
-    ],
-    [
       "6424856c-1346-4018-a943-0d16008c9545",
       "Connectors"
     ],
@@ -581,24 +638,8 @@
       "codec"
     ],
     [
-      "b200a1dd-4cf8-4022-8ce8-05ae44769d44",
-      "TapTempo (Ext_INT)"
-    ],
-    [
-      "533d5af8-9076-46fd-9be3-1e81aa1ebbdf",
-      "Footswitch"
-    ],
-    [
       "bf8ef258-4ec0-4b8f-b717-0a82eb791e29",
       "Audio_Connectors"
-    ],
-    [
-      "027e1bfd-1867-4598-8450-c55193b376a5",
-      "Display_Interface"
-    ],
-    [
-      "098a4d98-3407-42ed-a6c9-9db40672afa5",
-      "MCU_Display"
     ]
   ],
   "text_variables": {
